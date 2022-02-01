@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s03/DFF/tb_dff_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s03/DFF/tb_dff_beh.prj" "work.tb_dff" 

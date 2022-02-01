@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test.syr" 

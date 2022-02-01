@@ -1,0 +1,4 @@
+vhdl work "full_adder.vhd"
+vhdl work "ripple_adder.vhd"
+vhdl work "bcd_adder.vhd"
+vhdl work "test_bench.vhd"

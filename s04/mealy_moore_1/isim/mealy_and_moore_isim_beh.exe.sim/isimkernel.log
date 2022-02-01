@@ -1,0 +1,34 @@
+Command line:
+   mealy_and_moore_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63656
+
+Thu Oct 28 10:17:21 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.52 Meg
+
+ Total Signals          : 17
+ Total Nets             : 9
+ Total Signal Drivers   : 9
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 7
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 369
+
+** Failure:simulation finished successfully
+User(VHDL) Code Called Simulation Stop
+In process mealy_moore_1.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5154.52 Meg
+
+Thu Oct 28 10:17:27 2021
+

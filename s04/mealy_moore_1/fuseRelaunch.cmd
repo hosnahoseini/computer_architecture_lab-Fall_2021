@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s04/mealy_moore_1/mealy_and_moore_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s04/mealy_moore_1/mealy_and_moore_beh.prj" "work.mealy_and_moore" 

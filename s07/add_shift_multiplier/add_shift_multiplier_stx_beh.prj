@@ -1,0 +1,4 @@
+vhdl isim_temp "FA.vhd"
+vhdl isim_temp "ripple_adder.vhd"
+vhdl isim_temp "mux_4bit.vhd"
+vhdl isim_temp "add_shift_multiplier.vhd"

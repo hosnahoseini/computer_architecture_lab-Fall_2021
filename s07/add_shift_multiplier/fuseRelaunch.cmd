@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier_beh.prj" "work.add_shift_multiplier" 

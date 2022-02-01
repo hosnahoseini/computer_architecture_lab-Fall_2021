@@ -1,0 +1,7 @@
+vhdl work "full_adder.vhd"
+vhdl work "DFF.vhd"
+vhdl work "RCA.vhd"
+vhdl work "multiplier_result.vhd"
+vhdl work "multiplicand.vhd"
+vhdl work "controller.vhd"
+vhdl work "shift_add.vhd"

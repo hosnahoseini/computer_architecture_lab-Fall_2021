@@ -1,0 +1,34 @@
+Command line:
+   moore_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63786
+
+Thu Oct 28 10:22:42 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.9 Meg
+
+ Total Signals          : 10
+ Total Nets             : 6
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+
+** Failure:simulation finished successfully
+User(VHDL) Code Called Simulation Stop
+In process moore2.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5153.9 Meg
+
+Thu Oct 28 10:23:12 2021
+

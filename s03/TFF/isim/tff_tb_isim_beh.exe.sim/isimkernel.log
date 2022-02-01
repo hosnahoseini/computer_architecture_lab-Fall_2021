@@ -1,0 +1,34 @@
+Command line:
+   tff_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62450
+
+Wed Oct 20 12:29:23 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.94 Meg
+
+ Total Signals          : 10
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 365
+
+** Failure:simulation finished successfully
+User(VHDL) Code Called Simulation Stop
+In process TFF.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5153.94 Meg
+
+Wed Oct 20 12:29:27 2021
+

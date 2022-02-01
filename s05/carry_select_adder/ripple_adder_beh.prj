@@ -1,0 +1,2 @@
+vhdl work "ripple_adder.vhd"
+vhdl work "carry_select_adder.vhd"

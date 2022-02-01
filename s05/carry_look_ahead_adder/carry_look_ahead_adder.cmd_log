@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.syr" 

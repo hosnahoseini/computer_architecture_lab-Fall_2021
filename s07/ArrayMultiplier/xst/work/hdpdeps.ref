@@ -1,0 +1,29 @@
+V3 15
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/ArrayMultiplier.vhd" 2021/11/17.08:57:26 P.20131013
+EN work/ArrayMultiplier 1637303316 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/ArrayMultiplier.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ArrayMultiplier/RTL 1637303317 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/ArrayMultiplier.vhd" \
+      EN work/ArrayMultiplier 1637303316 CP RCA
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/FA.vhd" 2021/11/17.08:22:54 P.20131013
+EN work/FA 1637303312 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/FA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA/RTL 1637303313 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/FA.vhd" \
+      EN work/FA 1637303312
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/HA.vhd" 2021/11/17.08:14:39 P.20131013
+EN work/HA 1637303310 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/HA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/HA/RTL 1637303311 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/HA.vhd" \
+      EN work/HA 1637303310
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/RCA.vhd" 2021/11/17.08:48:11 P.20131013
+EN work/RCA 1637303314 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/RCA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCA/RTL 1637303315 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s07/ArrayMultiplier/RCA.vhd" \
+      EN work/RCA 1637303314 CP HA CP FA

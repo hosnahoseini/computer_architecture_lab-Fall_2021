@@ -1,0 +1,32 @@
+V3 16
+EN work/full_adder 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structural 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/full_adder 0
+EN work/xor_gate 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd"
+AR work/xor_gate/gatelevel 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/xor_gate 0
+EN work/and_gate 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd"
+AR work/and_gate/gatelevel 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/and_gate 0
+EN work/or_gate 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd"
+AR work/or_gate/gatelevel 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/or_gate 0
+EN work/half_adder 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd"
+AR work/half_adder/structural 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/half_adder 0 CP xor_gate CP and_gate
+EN work/Testbench_full_adder 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd"
+AR work/Testbench_full_adder/behavior 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" \
+      EN work/Testbench_full_adder 0 CP full_adder

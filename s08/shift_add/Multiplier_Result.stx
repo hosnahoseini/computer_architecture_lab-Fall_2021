@@ -1,0 +1,36 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.67 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" in Library work.
+Entity <Multiplier_Result> compiled.
+ERROR:HDLParsers:804 - "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" Line 66. Size of concat operation is different than size of the target.
+ERROR:HDLParsers:804 - "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" Line 69. Size of concat operation is different than size of the target.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.61 secs
+ 
+--> 
+
+Total memory usage is 4470120 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

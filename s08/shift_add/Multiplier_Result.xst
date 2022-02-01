@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/xst"
+elaborate
+-ifn Multiplier_Result.prj
+-ifmt mixed

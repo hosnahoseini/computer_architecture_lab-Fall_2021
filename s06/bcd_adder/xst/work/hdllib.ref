@@ -1,0 +1,7 @@
+EN bcd_adder NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/bcd_adder.vhd" sub00/vhpl04 1636529952
+EN fa NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/full_adder.vhd" sub00/vhpl00 1636529948
+AR bcd_adder behavioral "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/bcd_adder.vhd" sub00/vhpl05 1636529953
+AR rca gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/ripple_adder.vhd" sub00/vhpl03 1636529951
+AR fa gate_level "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/full_adder.vhd" sub00/vhpl01 1636529949
+EN test NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/test_bench.vhd" sub00/vhpl06 1636529954
+EN rca NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/ripple_adder.vhd" sub00/vhpl02 1636529950

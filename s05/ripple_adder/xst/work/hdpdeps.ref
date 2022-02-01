@@ -1,0 +1,22 @@
+V3 11
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/full_adder.vhd" 2021/11/03.23:33:50 P.20131013
+EN work/FA 1636037361 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA/gate_level 1636037362 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/full_adder.vhd" \
+      EN work/FA 1636037361
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/ripple_adder.vhd" 2021/11/03.23:34:40 P.20131013
+EN work/RCA 1636037363 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/ripple_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCA/GateLevel 1636037364 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/ripple_adder.vhd" \
+      EN work/RCA 1636037363 CP FA
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_bench.vhd" 2021/11/04.11:03:21 P.20131013
+EN work/test 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_bench.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/test/behavior 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_bench.vhd" \
+      EN work/test 0 CP RCA

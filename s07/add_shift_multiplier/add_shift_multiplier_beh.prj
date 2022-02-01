@@ -1,0 +1,4 @@
+vhdl work "FA.vhd"
+vhdl work "ripple_adder.vhd"
+vhdl work "mux_4bit.vhd"
+vhdl work "add_shift_multiplier.vhd"

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s11/simple_compter/scomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "scomp.ngc" scomp.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o scomp_map.ncd scomp.ngd scomp.pcf 
+par -w -intstyle ise -ol high -t 1 scomp_map.ncd scomp.ncd scomp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf 

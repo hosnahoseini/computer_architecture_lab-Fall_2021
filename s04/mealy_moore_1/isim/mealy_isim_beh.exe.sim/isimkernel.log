@@ -1,0 +1,28 @@
+Command line:
+   mealy_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63643
+
+Thu Oct 28 10:13:40 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.52 Meg
+
+ Total Signals          : 6
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5154.52 Meg
+
+Thu Oct 28 10:13:50 2021
+

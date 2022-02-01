@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" 2021/11/04.11:08:06 P.20131013
+EN work/carry_look_ahead_adder 1636039490 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/carry_look_ahead_adder/Behavioral 1636039491 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" \
+      EN work/carry_look_ahead_adder 1636039490 CP partial_full_adder
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" 2021/11/04.11:08:06 P.20131013
+EN work/partial_full_adder 1636039488 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/partial_full_adder/Gatelevel 1636039489 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" \
+      EN work/partial_full_adder 1636039488

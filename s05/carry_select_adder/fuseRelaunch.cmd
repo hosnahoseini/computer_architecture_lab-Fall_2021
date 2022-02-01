@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_select_adder/test_beh.prj" "work.test" 

@@ -1,0 +1,510 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: shift_add.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "shift_add.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "shift_add"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : shift_add
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" in Library work.
+Architecture behav of Entity dff is up to date.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" in Library work.
+Architecture struc of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" in Library work.
+Entity <rca> compiled.
+Entity <RCA> (Architecture <struc>) compiled.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" in Library work.
+Entity <Controller> compiled.
+Entity <Controller> (Architecture <rtl>) compiled.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" in Library work.
+Entity <Multiplicand> compiled.
+Entity <Multiplicand> (Architecture <struc>) compiled.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" in Library work.
+Entity <multiplier_result> compiled.
+Entity <Multiplier_Result> (Architecture <rtl>) compiled.
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" in Library work.
+Entity <shift_add> compiled.
+Entity <shift_add> (Architecture <rtl>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <shift_add> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <RCA> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <Controller> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <Multiplicand> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <Multiplier_Result> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <DFF> in library <work> (architecture <behav>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <shift_add> in library <work> (Architecture <rtl>).
+Entity <shift_add> analyzed. Unit <shift_add> generated.
+
+Analyzing Entity <RCA> in library <work> (Architecture <struc>).
+Entity <RCA> analyzed. Unit <RCA> generated.
+
+Analyzing Entity <Full_Adder> in library <work> (Architecture <struc>).
+Entity <Full_Adder> analyzed. Unit <Full_Adder> generated.
+
+Analyzing Entity <Controller> in library <work> (Architecture <rtl>).
+Entity <Controller> analyzed. Unit <Controller> generated.
+
+Analyzing Entity <Multiplicand> in library <work> (Architecture <struc>).
+Entity <Multiplicand> analyzed. Unit <Multiplicand> generated.
+
+Analyzing Entity <DFF> in library <work> (Architecture <behav>).
+Entity <DFF> analyzed. Unit <DFF> generated.
+
+Analyzing Entity <Multiplier_Result> in library <work> (Architecture <rtl>).
+INFO:Xst:2679 - Register <temp_register<8>> in unit <Multiplier_Result> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <Multiplier_Result> analyzed. Unit <Multiplier_Result> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Controller>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit up counter for signal <temp_count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <Multiplier_Result>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd".
+    Found 1-bit register for signal <temp_Add>.
+    Found 8-bit register for signal <temp_register<7:0>>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <Multiplier_Result> synthesized.
+
+
+Synthesizing Unit <Full_Adder>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd".
+    Found 1-bit xor3 for signal <Sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <Full_Adder> synthesized.
+
+
+Synthesizing Unit <DFF>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF> synthesized.
+
+
+Synthesizing Unit <RCA>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd".
+Unit <RCA> synthesized.
+
+
+Synthesizing Unit <Multiplicand>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd".
+Unit <Multiplicand> synthesized.
+
+
+Synthesizing Unit <shift_add>.
+    Related source file is "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd".
+Unit <shift_add> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 13
+ 1-bit register                                        : 13
+# Xors                                                 : 4
+ 1-bit xor3                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <inst_Controller/state/FSM> on signal <state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 000
+ init  | 001
+ test  | 011
+ add   | 110
+ shift | 010
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Xors                                                 : 4
+ 1-bit xor3                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <shift_add> ...
+
+Optimizing unit <Multiplier_Result> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block shift_add, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : shift_add.ngr
+Top Level Output File Name         : shift_add
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 35
+#      INV                         : 2
+#      LUT2                        : 3
+#      LUT2_L                      : 2
+#      LUT3                        : 7
+#      LUT3_L                      : 3
+#      LUT4                        : 14
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXF5                       : 2
+# FlipFlops/Latches                : 18
+#      FDC                         : 7
+#      FDCE                        : 11
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 10
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                       16  out of    768     2%  
+ Number of Slice Flip Flops:             14  out of   1536     0%  
+ Number of 4 input LUTs:                 33  out of   1536     2%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    124    16%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------+--------------------------------------------+-------+
+Clock Signal                               | Clock buffer(FF name)                      | Load  |
+-------------------------------------------+--------------------------------------------+-------+
+LOAD_cmd(inst_Controller/state_FSM_Out31:O)| NONE(*)(inst_Multiplicand/DFFs[3].DFFReg/Q)| 4     |
+clk                                        | BUFGP                                      | 14    |
+-------------------------------------------+--------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------+-------------------------------------+-------+
+Control Signal                                                                   | Buffer(FF name)                     | Load  |
+---------------------------------------------------------------------------------+-------------------------------------+-------+
+inst_Controller/state_FSM_Acst_FSM_inv(inst_Multiplier_Result/reset_inv1_INV_0:O)| NONE(inst_Controller/state_FSM_FFd1)| 18    |
+---------------------------------------------------------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.939ns (Maximum Frequency: 253.855MHz)
+   Minimum input arrival time before clock: 2.346ns
+   Maximum output required time after clock: 7.945ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.939ns (frequency: 253.855MHz)
+  Total number of paths / destination ports: 111 / 25
+-------------------------------------------------------------------------
+Delay:               3.939ns (Levels of Logic = 3)
+  Source:            inst_Multiplier_Result/temp_register_6 (FF)
+  Destination:       inst_Multiplier_Result/temp_register_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: inst_Multiplier_Result/temp_register_6 to inst_Multiplier_Result/temp_register_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.626   1.014  inst_Multiplier_Result/temp_register_6 (inst_Multiplier_Result/temp_register_6)
+     LUT4:I2->O            1   0.479   0.000  inst_Multiplier_Result/temp_register_6_mux0001_SW0_SW1_F (N32)
+     MUXF5:I0->O           1   0.314   0.851  inst_Multiplier_Result/temp_register_6_mux0001_SW0_SW1 (N23)
+     LUT4:I1->O            1   0.479   0.000  inst_Multiplier_Result/temp_register_6_mux0001 (inst_Multiplier_Result/temp_register_6_mux0001)
+     FDCE:D                    0.176          inst_Multiplier_Result/temp_register_6
+    ----------------------------------------
+    Total                      3.939ns (2.074ns logic, 1.865ns route)
+                                       (52.6% logic, 47.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'LOAD_cmd'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.572ns (Levels of Logic = 1)
+  Source:            A_in<3> (PAD)
+  Destination:       inst_Multiplicand/DFFs[3].DFFReg/Q (FF)
+  Destination Clock: LOAD_cmd rising
+
+  Data Path: A_in<3> to inst_Multiplicand/DFFs[3].DFFReg/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  A_in_3_IBUF (A_in_3_IBUF)
+     FDC:D                     0.176          inst_Multiplicand/DFFs[3].DFFReg/Q
+    ----------------------------------------
+    Total                      1.572ns (0.891ns logic, 0.681ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              2.346ns (Levels of Logic = 2)
+  Source:            START (PAD)
+  Destination:       inst_Controller/state_FSM_FFd3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: START to inst_Controller/state_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.976  START_IBUF (START_IBUF)
+     LUT4:I0->O            1   0.479   0.000  inst_Controller/state_FSM_FFd3-In (inst_Controller/state_FSM_FFd3-In)
+     FDC:D                     0.176          inst_Controller/state_FSM_FFd3
+    ----------------------------------------
+    Total                      2.346ns (1.370ns logic, 0.976ns route)
+                                       (58.4% logic, 41.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 10 / 9
+-------------------------------------------------------------------------
+Offset:              7.945ns (Levels of Logic = 2)
+  Source:            inst_Controller/state_FSM_FFd3 (FF)
+  Destination:       STOP (PAD)
+  Source Clock:      clk rising
+
+  Data Path: inst_Controller/state_FSM_FFd3 to STOP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.626   1.250  inst_Controller/state_FSM_FFd3 (inst_Controller/state_FSM_FFd3)
+     LUT2:I0->O            1   0.479   0.681  inst_Controller/state_FSM_Out11 (STOP_OBUF)
+     OBUF:I->O                 4.909          STOP_OBUF (STOP)
+    ----------------------------------------
+    Total                      7.945ns (6.014ns logic, 1.931ns route)
+                                       (75.7% logic, 24.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.34 secs
+ 
+--> 
+
+Total memory usage is 4499952 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

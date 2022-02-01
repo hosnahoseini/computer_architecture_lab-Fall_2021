@@ -1,0 +1,16 @@
+AR rca struc "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" sub00/vhpl08 1637861267
+AR multiplicand struc "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" sub00/vhpl12 1637861271
+EN dff NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" sub00/vhpl01 1637861262
+EN fa NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/FA.vhd" sub00/vhpl03 1637860996
+AR dff behav "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" sub00/vhpl02 1637861263
+EN multiplicand NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" sub00/vhpl11 1637861270
+EN shift_add NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" sub00/vhpl14 1637861274
+AR shift_add rtl "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" sub00/vhpl15 1637861275
+AR controller rtl "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" sub00/vhpl10 1637861269
+AR full_adder struc "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" sub00/vhpl07 1637861265
+AR multiplier_result rtl "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" sub00/vhpl13 1637861273
+EN full_adder NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" sub00/vhpl06 1637861264
+AR fa gate_level "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/FA.vhd" sub00/vhpl04 1637860997
+EN rca NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" sub00/vhpl05 1637861266
+EN controller NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" sub00/vhpl09 1637861268
+EN multiplier_result NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" sub00/vhpl00 1637861272

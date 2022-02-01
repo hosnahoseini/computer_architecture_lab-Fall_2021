@@ -1,0 +1,28 @@
+Command line:
+   single_port_RAM_visualTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64155
+
+Mon Dec 20 18:16:42 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.99 Meg
+
+ Total Signals          : 9
+ Total Nets             : 33
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 520
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5153.99 Meg
+
+Mon Dec 20 18:16:50 2021
+

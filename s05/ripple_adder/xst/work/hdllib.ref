@@ -1,0 +1,5 @@
+EN fa NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/full_adder.vhd" sub00/vhpl00 1636037361
+AR rca gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/ripple_adder.vhd" sub00/vhpl03 1636037364
+AR fa gate_level "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/full_adder.vhd" sub00/vhpl01 1636037362
+EN test NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_bench.vhd" sub00/vhpl04 1636037263
+EN rca NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/ripple_adder.vhd" sub00/vhpl02 1636037363

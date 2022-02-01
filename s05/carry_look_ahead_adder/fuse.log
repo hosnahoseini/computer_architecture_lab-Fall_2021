@@ -1,0 +1,22 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/test_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/test_beh.prj work.test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/test_bench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture gatelevel of entity partial_full_adder [partial_full_adder_default]
+Compiling architecture behavioral of entity carry_look_ahead_adder [carry_look_ahead_adder_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 VHDL Units
+Built simulation executable C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/test_isim_beh.exe
+Fuse Memory Usage: 36652 KB
+Fuse CPU Usage: 624 ms

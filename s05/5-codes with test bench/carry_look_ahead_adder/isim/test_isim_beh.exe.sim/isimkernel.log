@@ -1,0 +1,27 @@
+Command line:
+   test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53102
+
+Thu Nov 04 11:08:54 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.03 Meg
+
+ Total Signals          : 37
+ Total Nets             : 26
+ Total Signal Drivers   : 19
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 17
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 509
+
+** Failure:simulation finished successfully
+User(VHDL) Code Called Simulation Stop
+In process test_bench.vhd:66 
+ 
+

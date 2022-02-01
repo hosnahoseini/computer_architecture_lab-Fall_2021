@@ -1,0 +1,5 @@
+vhdl isim_temp "HA.vhd"
+vhdl isim_temp "FA.vhd"
+vhdl isim_temp "RCA.vhd"
+vhdl isim_temp "ArrayMultiplier.vhd"
+vhdl isim_temp "TestBench.vhd"

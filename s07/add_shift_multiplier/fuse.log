@@ -1,0 +1,15 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier_beh.prj work.add_shift_multiplier 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/FA.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/ripple_adder.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/mux_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" into library work
+ERROR:HDLCompiler:806 - "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" Line 88: Syntax error near "port".
+ERROR:HDLCompiler:806 - "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" Line 89: Syntax error near "port".
+ERROR:HDLCompiler:1731 - "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" Line 95: found '0' definitions of operator "-", cannot determine exact overloaded matching definition for "-"
+ERROR:HDLCompiler:806 - "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" Line 97: Syntax error near "end".
+ERROR:HDLCompiler:841 - "C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd" Line 99: Expecting type  void for <behavioral>.
+VHDL file C:/Users/RAI/Desktop/university/term 5/CALab/s07/add_shift_multiplier/add_shift_multiplier.vhd ignored due to errors

@@ -1,0 +1,13 @@
+AR mux4x1 gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl05 1634105614
+EN not_gate NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl06 1634057361
+AR tb_mux behavior "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl09 1634104548
+AR not_gate gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl07 1634057362
+AR and_gate gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl02 1634057358
+EN mux4x1 NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl00 1634105613
+EN or_gate NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl03 1634057359
+AR mux4x1_tb test "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl12 1634104749
+EN tb_mux NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl08 1634104603
+AR tb_mux test "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl10 1634104604
+EN mux4x1_tb NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl11 1634105539
+EN and_gate NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl01 1634057357
+AR or_gate gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/mux4x1.vhd" sub00/vhpl04 1634057360

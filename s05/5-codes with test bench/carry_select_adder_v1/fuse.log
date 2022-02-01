@@ -1,0 +1,28 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_beh.prj work.test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/mux2x1_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/ripple_adder.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/mux2x1_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/CSA.vhd" into library work
+Parsing VHDL file "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_bench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture gate_level of entity FA [fa_default]
+Compiling architecture gatelevel of entity RCA [rca_default]
+Compiling architecture behavioral of entity mux_2x1_1bit [mux_2x1_1bit_default]
+Compiling architecture behavioral of entity mux_2x1_4bit [mux_2x1_4bit_default]
+Compiling architecture gatelevel of entity CSA [csa_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_isim_beh.exe
+Fuse Memory Usage: 36700 KB
+Fuse CPU Usage: 593 ms

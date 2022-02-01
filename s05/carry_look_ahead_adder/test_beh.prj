@@ -1,0 +1,3 @@
+vhdl work "partical_full_adder.vhd"
+vhdl work "carry_look_ahead_adder.vhd"
+vhdl work "test_bench.vhd"

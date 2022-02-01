@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s05/5-codes with test bench/carry_select_adder_v1/test_beh.prj" "work.test" 

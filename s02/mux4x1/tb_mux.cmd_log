@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "tb_mux.ngc" tb_mux.ngd  
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "tb_mux.ngc" tb_mux.ngd  
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.xst" -ofn "C:/Users/RAI/Desktop/university/term 5/CALab/s02/mux4x1/tb_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "tb_mux.ngc" tb_mux.ngd  

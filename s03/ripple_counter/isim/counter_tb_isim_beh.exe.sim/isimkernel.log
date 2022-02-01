@@ -1,0 +1,34 @@
+Command line:
+   counter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57325
+
+Wed Oct 20 12:30:01 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.94 Meg
+
+ Total Signals          : 7
+ Total Nets             : 10
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 370
+
+** Failure:simulation finished successfully
+User(VHDL) Code Called Simulation Stop
+In process ripple_counter.vhd:88 
+ 
+
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5153.94 Meg
+
+Wed Oct 20 12:30:26 2021
+

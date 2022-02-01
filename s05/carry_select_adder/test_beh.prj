@@ -1,0 +1,6 @@
+vhdl work "mux_1bit.vhd"
+vhdl work "full_adder.vhd"
+vhdl work "ripple_adder.vhd"
+vhdl work "mux_4bit.vhd"
+vhdl work "carry_select_adder.vhd"
+vhdl work "test_bench.vhd"

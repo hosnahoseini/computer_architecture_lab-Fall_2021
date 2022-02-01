@@ -1,0 +1,28 @@
+V3 15
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/bcd_adder.vhd" 2021/11/10.10:13:28 P.20131013
+EN work/bcd_adder 1636529952 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/bcd_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/bcd_adder/Behavioral 1636529953 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/bcd_adder.vhd" \
+      EN work/bcd_adder 1636529952 CP RCA
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/full_adder.vhd" 2021/11/10.09:57:25 P.20131013
+EN work/FA 1636529948 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA/gate_level 1636529949 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/full_adder.vhd" \
+      EN work/FA 1636529948
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/ripple_adder.vhd" 2021/11/10.09:57:25 P.20131013
+EN work/RCA 1636529950 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/ripple_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCA/GateLevel 1636529951 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/ripple_adder.vhd" \
+      EN work/RCA 1636529950 CP FA
+EN work/test 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/test_bench.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/test/behavior 0 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s06/bcd_adder/test_bench.vhd" \
+      EN work/test 0 CP bcd_adder

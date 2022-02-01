@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s10/CAM/CAM.vhd" 2021/12/21.17:49:30 P.20131013
+EN work/cam 1640096387 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s10/CAM/CAM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/cam/rtl 1640096388 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s10/CAM/CAM.vhd" \
+      EN work/cam 1640096387

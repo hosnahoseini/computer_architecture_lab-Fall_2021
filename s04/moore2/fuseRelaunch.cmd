@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s04/moore2/moore_tb_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s04/moore2/moore_tb_beh.prj" "work.moore_tb" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_isim_beh.exe" -prj "C:/Users/RAI/Desktop/university/term 5/CALab/s05/ripple_adder/test_beh.prj" "work.test" 

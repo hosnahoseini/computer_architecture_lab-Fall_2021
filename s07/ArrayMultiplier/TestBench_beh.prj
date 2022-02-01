@@ -1,0 +1,5 @@
+vhdl work "HA.vhd"
+vhdl work "FA.vhd"
+vhdl work "RCA.vhd"
+vhdl work "ArrayMultiplier.vhd"
+vhdl work "TestBench.vhd"

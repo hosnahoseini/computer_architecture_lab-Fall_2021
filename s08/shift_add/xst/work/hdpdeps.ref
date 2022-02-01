@@ -1,0 +1,59 @@
+V3 31
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" 2021/11/25.20:51:36 P.20131013
+EN work/Controller 1637861268 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Controller/rtl 1637861269 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/controller.vhd" \
+      EN work/Controller 1637861268
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" 2021/11/25.20:51:36 P.20131013
+EN work/DFF 1637861262 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DFF/behav 1637861263 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/DFF.vhd" \
+      EN work/DFF 1637861262
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/FA.vhd" 2021/11/25.20:51:37 P.20131013
+EN work/FA 1637860996 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/FA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA/gate_level 1637860997 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/FA.vhd" \
+      EN work/FA 1637860996
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" 2021/11/25.20:56:59 P.20131013
+EN work/Full_Adder 1637861264 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/struc 1637861265 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/full_adder.vhd" \
+      EN work/Full_Adder 1637861264
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" 2021/11/25.20:49:11 P.20131013
+EN work/Multiplicand 1637861270 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplicand/struc 1637861271 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplicand.vhd" \
+      EN work/Multiplicand 1637861270 CP DFF
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" 2021/11/25.20:52:58 P.20131013
+EN work/Multiplier_Result 1637861272 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplier_Result/rtl 1637861273 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/multiplier_result.vhd" \
+      EN work/Multiplier_Result 1637861272
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" 2021/11/25.20:57:38 P.20131013
+EN work/RCA 1637861266 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCA/struc 1637861267 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/RCA.vhd" \
+      EN work/RCA 1637861266 CP Full_Adder
+FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" 2021/11/25.20:48:39 P.20131013
+EN work/shift_add 1637861274 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/shift_add/rtl 1637861275 \
+      FL "C:/Users/RAI/Desktop/university/term 5/CALab/s08/shift_add/shift_add.vhd" \
+      EN work/shift_add 1637861274 LB work CP RCA CP Controller CP Multiplicand \
+      CP Multiplier_Result

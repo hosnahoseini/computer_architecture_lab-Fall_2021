@@ -1,0 +1,180 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.47 secs
+ 
+--> Reading design: half_adder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "half_adder.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "half_adder"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : half_adder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" in Library work.
+Entity <full_adder> compiled.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. Undefined symbol 'half_adder_instace0'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. half_adder_instace0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. Undefined symbol 'in1'.  Should it be: i1?
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. in1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. Undefined symbol 'in2'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. in2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. Undefined symbol 'out1'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. out1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. Undefined symbol 'out2'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 60. out2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 61. Undefined symbol 'half_adder_instace1'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 61. half_adder_instace1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 61. Undefined symbol 'internal_signal2'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 61. internal_signal2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. Undefined symbol 'or_gate_instance0'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. or_gate_instance0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. A: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. Undefined symbol 'C'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 62. C: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 69. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 69. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3010 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 74. Entity xor_gate does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 78. Undefined symbol 'C'.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 78. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 78. A: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 78. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 78. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 84. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 84. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3010 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 89. Entity and_gate does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 93. Undefined symbol 'C'.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 93. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 93. A: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 93. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 93. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 99. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 99. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3010 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 104. Entity or_gate does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 108. Undefined symbol 'C'.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 108. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 108. A: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 108. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 108. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 114. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 114. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3010 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 119. Entity half_adder does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 122. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 122. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 129. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 129. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. Undefined symbol 'in1'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. in1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. Undefined symbol 'in2'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. in2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. Undefined symbol 'out1'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 135. out1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 136. Undefined symbol 'out2'.
+ERROR:HDLParsers:1209 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 136. out2: Undefined symbol (last report in this block)
+Entity <Testbench_full_adder> compiled.
+ERROR:HDLParsers:163 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 144. Unexpected symbol read:  .
+ERROR:HDLParsers:164 - "C:/Users/RAI/Desktop/university/term 5/CALab/s01/full_adder/full_adder.vhd" Line 144. parse error, unexpected FOR, expecting END
+--> 
+
+Total memory usage is 4485884 kilobytes
+
+Number of errors   :   63 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

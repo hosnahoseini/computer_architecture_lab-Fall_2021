@@ -1,0 +1,4 @@
+EN carry_look_ahead_adder NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" sub00/vhpl02 1636039490
+AR partial_full_adder gatelevel "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" sub00/vhpl01 1636039489
+AR carry_look_ahead_adder behavioral "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/carry_look_ahead_adder.vhd" sub00/vhpl03 1636039491
+EN partial_full_adder NULL "C:/Users/RAI/Desktop/university/term 5/CALab/s05/carry_look_ahead_adder/partical_full_adder.vhd" sub00/vhpl00 1636039488
